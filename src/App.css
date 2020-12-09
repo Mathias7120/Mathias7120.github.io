@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.highscoreContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.highscoreItem {
+  display: flex;
+  box-shadow: 1px 3px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 0.2rem;
+  overflow: hidden;
+}
+
+.highscoreItem p {
+  padding: 0.5rem;
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.highscoreItem p:first-of-type {
+  width: 6rem;
+  text-align: start;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
